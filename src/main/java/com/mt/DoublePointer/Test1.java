@@ -14,6 +14,7 @@ public class Test1 {
         String a = "123";
         String text = "branch1";
         String text2 = "branch2";
+        String abc = "abc";
         System.out.println(a);
         return a;
     }
