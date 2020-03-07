@@ -13,6 +13,9 @@ public class Test1 {
     public String test1(){
         String a = "123";
         String text = "branch1";
+        int a1 = 1;
+        int a2 = 2;
+        System.out.println(a1+a2);
         String text2 = "branch2";
         String abc = "abc";
         System.out.println(a);
