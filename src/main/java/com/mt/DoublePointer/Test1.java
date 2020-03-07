@@ -12,6 +12,7 @@ public class Test1 {
     @RequestMapping("/test1")
     public String test1(){
         String a = "123";
+        String text = "branch1";
         System.out.println(a);
         return a;
     }
