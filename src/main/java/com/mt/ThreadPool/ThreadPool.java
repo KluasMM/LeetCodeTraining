@@ -10,11 +10,11 @@ import java.util.concurrent.TimeUnit;
  */
 public class ThreadPool {
 	
-	private int corePoolSize = 8;
+	private int corePoolSize = 200;
 	
-	private int maxPoolSize = 20;
+	private int maxPoolSize = 200;
 	
-	private int queueCapacity = 20;
+	private int queueCapacity = 50000;
 	
 	private int keepAliveSeconds = 2;
 	
